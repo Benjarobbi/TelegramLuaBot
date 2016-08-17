@@ -1,33 +1,33 @@
 # TelegramLuaBot v2
 -------
-It's A Bot Based On TelegramAPI,GroupBulter For Chating With Users Got Reported In Telegram
+This is a telegram bot based on the Telegram API and GroupButler for chatting with users which got reported in Telegram.
 ----
-#HELP
+#Help
 -------
-In Pm:
+In private:
 
 
-/a <Pm>  --This Will Send Pm To Admin
+/a <message>  -This will send a message to the admin.
 
-/u <pm> (VIA REPLY) --This Will Send Back Pm To User
-
-
-In Admin Pm
+/u <pm> (VIA REPLY) - This will send a reply to the user/sender.
 
 
-/blacklist <userid> --This Will Block User To Send Pm
+Admin commands:
 
-/blacklist <username> --This Will Block User To Send Pm 
 
-/whitelist <userid>  --This Will UnBlock User To Send Pm 
+/blacklist <userid> -This will block the user to send messages. (using id)
 
-/whitelist <username>  --This Will UnBlock User To Send Pm 
+/blacklist <username> -This will block the user to send messages. (using username)
+
+/whitelist <userid>  -This will unblock the user to send messages. (using id)
+
+/whitelist <username>  -This will unblock the user to send messages. (using username
 
 
 
 Atterntion!
 
-you can unblock user,with sending /blacklist <userid> or /blacklist <username> twice!
+you can unblock user, by sending /blacklist <userid> or /blacklist <username> twice!
 --------------------------------
  Get Started
 You **must** have Lua (5.2+), LuaSocket, and LuaSec installed.
